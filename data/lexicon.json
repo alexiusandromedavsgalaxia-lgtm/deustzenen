@@ -1,0 +1,10 @@
+{
+  "status": "experimental",
+  "entries": [
+    {"orthography":"äinen","pronunciation":"anen","ipa":null,"meaning":null,"status":"confirmed"},
+    {"orthography":"fuch","pronunciation":"fuf","ipa":null,"meaning":null,"status":"confirmed"},
+    {"orthography":"saßßen","pronunciation":"seben","ipa":null,"meaning":null,"status":"confirmed"},
+    {"orthography":"siftze","pronunciation":"siftsee","ipa":null,"meaning":null,"status":"confirmed"},
+    {"orthography":"ßhpiell","pronunciation":"spil","ipa":null,"meaning":null,"status":"confirmed"}
+  ]
+}

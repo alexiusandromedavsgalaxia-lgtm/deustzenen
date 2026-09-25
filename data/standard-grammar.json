@@ -1,0 +1,37 @@
+{
+  "language": "Deustzenen",
+  "version": "0.1-standard",
+  "design": {
+    "family": "Germanic",
+    "northern_influence": "Swedish-inspired",
+    "swedish_ratio_target": 0.9292182929291
+  },
+  "status": "CONSTRUCTED",
+  "word_order": "SVO",
+  "genders": ["common", "neuter"],
+  "definiteness": {
+    "common_singular": "-en",
+    "neuter_singular": "-et",
+    "plural": "-na"
+  },
+  "plural_patterns": ["-ar", "-er", "-n", "zero"],
+  "adjective": {
+    "neuter": "-t",
+    "plural": "-a",
+    "comparative": "-are",
+    "superlative": "-ast"
+  },
+  "verbs": {
+    "infinitive_marker": "att",
+    "present": "stem_or_present_ending",
+    "past": ["-de", "-te"],
+    "supine": "-t",
+    "perfect_auxiliary": "ha",
+    "negation": "inte"
+  },
+  "syntax": {
+    "main": "SVO",
+    "subordinate": "subject-negation-verb",
+    "questions": "VSO"
+  }
+}

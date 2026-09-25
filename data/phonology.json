@@ -1,0 +1,22 @@
+{
+  "status": "incomplete",
+  "confirmed_rules": [
+    {
+      "id": "RULE-001",
+      "input": "ß",
+      "output": "s",
+      "status": "confirmed"
+    },
+    {
+      "id": "RULE-002",
+      "input": "ßß",
+      "output": "b",
+      "status": "confirmed"
+    }
+  ],
+  "ipa_inventory": null,
+  "notes": [
+    "No complete IPA inventory has been established.",
+    "Build phonology from confirmed orthography-to-pronunciation pairs."
+  ]
+}

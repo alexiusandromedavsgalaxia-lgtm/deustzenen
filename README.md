@@ -1,47 +1,88 @@
 # Deustzenen™
 
-Lengua construida en desarrollo activo.
+**eine Sprache, die nicht so spricht, wie sie schreibt.**
 
-> **Deustzenen™: eine Sprache, die nicht so spricht, wie sie schreibt.**
+Lengua construida/reconstruida en desarrollo activo a partir de un corpus.
 
-## Estado
+## Estado actual
 
-- Ortografía: parcialmente definida
-- Alfabeto: parcialmente definido
-- Fonología: incompleta
-- Pronunciación: parcialmente documentada
-- Fonotáctica: desconocida
-- Morfología: desconocida
-- Sintaxis: desconocida
-- Diccionario: experimental
-- Reglas fonológicas confirmadas: 2
-- Gramática: pendiente de construcción
+| Capa | Estado |
+|---|---|
+| Ortografía | parcialmente definida |
+| Correspondencias | en expansión |
+| Fonología | incompleta |
+| Fonotáctica | UNKNOWN |
+| Morfología | UNKNOWN / HYPOTHESIS |
+| Sintaxis | HYPOTHESIS |
+| Semántica | UNKNOWN |
+| Léxico | experimental |
 
 ## Principio
 
-Deustzenen™ no debe tratarse como alemán con letras cambiadas. La escritura y la pronunciación son niveles independientes:
+Deustzenen™ no es «alemán con letras cambiadas».
 
-**texto → análisis ortográfico → reglas fonológicas → pronunciación**
+La cadena de análisis es:
 
-El idioma debe desarrollarse a partir del corpus: primero datos, después análisis, después reglas.
+**ORTHOGRAPHY → CORRESPONDENCES → PHONOLOGY → MORPHOLOGY → SYNTAX → SEMANTICS**
 
-## Reglas confirmadas
+El corpus tiene prioridad sobre cualquier teoría.
+
+## Reglas fonológicas CONFIRMED
 
 - `ß → s`
 - `ßß → b`
 
-Todo lo demás es provisional hasta obtener más evidencia.
+Ejemplo:
+
+`saßßen → seben`
+
+Estas son las únicas reglas generales marcadas como CONFIRMED en este momento.
+
+## Material documentado
+
+Las frases completas y sus salidas se encuentran en `corpus/confirmed.md` y `examples/phrases.md`.
+
+El léxico experimental está en `dictionary/`.
+
+## Convenciones
+
+- **CONFIRMED** — respaldado directamente por datos suficientes.
+- **HYPOTHESIS** — análisis provisional que puede cambiar.
+- **PENDING** — dato conservado sin análisis definitivo.
+- **UNKNOWN** — todavía no determinado.
+
+## Filosofía
+
+No se borra una forma porque resulte rara.
+No se arregla una frase para que encaje.
+No se asigna un significado porque «parezca» obvio.
+No se importa gramática de otra lengua sin evidencia.
+
+Primero: **puten morten**.
+Después: análisis.
+Luego: reglas.
 
 ## Estructura
 
-- `docs/` — documentación lingüística
-- `dictionary/` — léxico experimental
-- `orthography/` — escritura y caracteres
-- `phonology/` — inventario y reglas fonológicas
-- `grammar/` — gramática en construcción
-- `corpus/` — datos confirmados, pendientes e hipótesis
+- `docs/` — especificación y metodología
+- `orthography/` — escritura
+- `phonology/` — sonido y correspondencias
+- `morphology/` / `grammar/` — morfología y gramática
+- `syntax/` — sintaxis
+- `dictionary/` — léxico
+- `corpus/` — corpus
+- `examples/` — ejemplos legibles
 - `data/` — datos estructurados
 
-## Regla de desarrollo
+## Siguiente fase
 
-Cada frase nueva debe conservarse exactamente, registrar su pronunciación si está disponible, compararse con el corpus y solo convertirse en regla cuando haya evidencia suficiente.
+1. ampliar el corpus;
+2. construir tabla de correspondencias;
+3. extraer pares mínimos;
+4. proponer IPA;
+5. separar morfología de fonología;
+6. reconstruir sintaxis;
+7. comenzar diccionario semántico;
+8. escribir textos originales en Deustzenen cuando el sistema lo permita.
+
+**Deustzenen™ está vivo.**

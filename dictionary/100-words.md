@@ -102,3 +102,55 @@ This is CONSTRUCTED standard vocabulary, not a claim that every item is corpus-d
 98 morgenröd — morning-red
 99 vinterdag — winter day
 100 stadshus — city hall
+
+
+101 heim — home
+102 dor — door
+103 vindu — window
+104 bord — table
+105 stol — chair
+106 eld — fire
+107 ljus — light
+108 skugga — shadow
+109 sten — stone
+110 tra — tree/wood
+111 blom — flower
+112 gras — grass
+113 rot — root
+114 fagel — bird
+115 fisk — fish
+116 hund — dog
+117 katt — cat
+118 hast — horse
+119 hand — hand
+120 huvud — head
+121 hjarta — heart
+122 oga — eye
+123 rost — voice
+124 sang — song
+125 arbete — work
+126 spel — game
+127 gava — gift
+128 fraga — question
+129 svar — answer
+130 borjan — beginning
+131 slut — end
+132 vanlig — kind/friendly
+133 stark — strong
+134 svag — weak
+135 ljusig — bright
+136 mork — dark
+137 tyst — quiet
+138 hog — high
+139 lag — low
+140 nara — near
+141 fjarr — distant
+142 alltid — always
+143 aldrig — never
+144 kanske — maybe
+145 tillsammans — together
+146 oppna — open
+147 stanga — close
+148 bygga — build
+149 finna — find
+150 bara — carry
